@@ -1,0 +1,93 @@
+.container ._container-2:hover {
+  visible: true;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 69px/1.2 Helvetica;
+  color: rgb(255, 255, 255);
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #1f1f1f;
+}
+
+.container-blue {
+  background-color: #298cb7;
+}
+
+.container-empty {
+  background-color: #ffffff;
+}
+
+.container-empty .link-top {
+  color: rgb(0,0,0);
+}
+
+.container-green {
+  background-color: #29b796;
+}
+
+.container-red {
+  background-color: #ee6d58;
+}
+
+.container-blue .link-top,
+.container-green .link-top,
+.container-red .link-top {
+  color: rgb(255, 255, 255);
+}
+
+.containr {
+  position: relative;
+  width: 100%;
+  min-height: 250px;
+  margin: 0 auto;
+}
+
+.green-title {
+  float: left;
+  width: 100%;
+  padding-top: 30px;
+  font-weight: 400;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.link-top {
+  display: block;
+  float: left;
+  clear: both;
+  width: 100%;
+  padding-bottom: 50px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+}
+
+.menu {
+  display: block;
+  float: left;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(204, 207, 209);
+}
+
+.container ._container {
+  float: left;
+  width: 33.3333333333%;
+}
+
+._container-1 {
+  width: 100%;
+  margin: 0 auto;
+}

@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-size: 16px;
+}
+
+.button--home {
+  float: left;
+  width: 46px;
+  height: 44px;
+  margin: 20px 0 0 10%;
+  background-image: url('../images/img_navsprites.gif');
+  background-repeat: repeat-x;
+  background-size: auto auto;
+  background-position: left top;
+}
+
+.button--home:hover {
+  background-position: left bottom;
+}
+
+.button--next {
+  float: left;
+  clear: both;
+  width: 43px;
+  height: 44px;
+  margin: 20px 0 0 10%;
+  background-image: url('../images/img_navsprites.gif');
+  background-repeat: repeat-x;
+  background-size: auto auto;
+  background-position: 43px 0%;
+}
+
+.button--next:hover {
+  background-position: 43px 100%;
+}
+
+.button--prev {
+  float: left;
+  clear: both;
+  width: 43px;
+  height: 44px;
+  margin: 20px 0 0 10%;
+  background-image: url('../images/img_navsprites.gif');
+  background-repeat: repeat-x;
+  background-size: auto auto;
+  background-position: 87px 0%;
+}
+
+.button--prev:hover {
+  background-repeat: no-repeat;
+  background-position: -47px 100%;
+}

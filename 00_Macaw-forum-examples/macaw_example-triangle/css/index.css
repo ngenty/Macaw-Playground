@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-size: 16px;
+}
+
+.col-l {
+  float: left;
+  width: 13%;
+  height: 200px;
+  min-height: 200px;
+  background-color: #505865;
+}
+
+.col-l__icon {
+  width: 80px;
+  height: 80px;
+  margin: 50px auto 0;
+  border-radius: 10px;
+  background-color: #e56735;
+}
+
+.col-r {
+  position: relative;
+  float: left;
+  width: 87%;
+  min-height: 200px;
+  background-color: #ffffff;
+}
+
+.col-r__before {
+  position: absolute;
+  top: 70px;
+  left: -20px;
+  z-index: 2;
+  width: 20px;
+  height: 40px;
+  border-top: 20px solid rgba(0, 0, 0, 0.01);
+  border-right: 20px solid #ffffff;
+  border-bottom: 20px solid rgba(0, 0, 0, 0.01);
+}

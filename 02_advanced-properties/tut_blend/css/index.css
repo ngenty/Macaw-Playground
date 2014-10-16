@@ -1,0 +1,215 @@
+body {
+  background-color: #ffffff;
+  font: normal 0.875em/1.38 SourceCodePro-Regular;
+  color: #7f8c8d;
+}
+
+.a--col-4 {
+  position: relative;
+  float: left;
+  width: 25%;
+  min-height: 14.286em;
+  padding: 0.714em;
+}
+
+.a--footer {
+  float: left;
+  clear: both;
+  width: 100%;
+  min-height: 14.286em;
+  margin-top: 7.143em;
+  background-color: rgb(236, 240, 241);
+}
+
+.a--footer .a--wrapr,
+.a--section--content .a--wrapr {
+  position: relative;
+  min-height: 2.857em;
+}
+
+.a--footer--made {
+  float: left;
+  width: 91.9997258771%;
+  margin: 1.429em 0 0 3.99534%;
+  padding-bottom: 0.286em;
+  font-size: 1em;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(127, 140, 141);
+}
+
+.a--h1 {
+  float: left;
+  width: 92%;
+  margin: 3.333em 0 0 3.99534%;
+  padding-bottom: 0.167em;
+  font-size: 1.714em;
+  line-height: 1.38;
+  color: #ffffff;
+}
+
+.a--h3 {
+  float: left;
+  width: 91.9997258771%;
+  margin-left: 3.99534%;
+  padding-bottom: 0.2em;
+  font-size: 1.429em;
+  line-height: 1.38;
+  color: #34495e;
+}
+
+.a--header-p {
+  float: left;
+  clear: both;
+  width: 91.9997258771%;
+  margin-left: 3.99534%;
+  font-size: 1.143em;
+  line-height: 1.38;
+  color: #ffffff;
+}
+
+.a--header-title {
+  float: left;
+  width: 100%;
+  min-height: 10.714em;
+  background-color: #27ae60;
+}
+
+.a--header-title .a--wrapr {
+  min-height: 17.857em;
+}
+
+.a--row,
+.a--section--content {
+  float: left;
+  clear: both;
+  width: 100%;
+}
+
+.a--section-subtitle--p {
+  float: left;
+  clear: both;
+  width: 91.9997258771%;
+  margin-left: 3.99534%;
+  padding-bottom: 0.286em;
+  font-size: 1em;
+  line-height: 1.45;
+  color: #7f8c8d;
+}
+
+.a--section-warning--p {
+  float: left;
+  clear: both;
+  width: 91.9997258771%;
+  margin-left: 3.99534%;
+  padding: 1.429em 2.143em;
+  border-radius: 0.214em;
+  background-color: #fcf3d0;
+  font-size: 1em;
+  line-height: 1.45;
+  color: #d35400;
+}
+
+.a--text-legend {
+  margin: 0.714em auto 0;
+  padding-bottom: 0.714em;
+  font-size: 1em;
+  line-height: 1.38;
+  text-align: center;
+  color: #7f8c8d;
+}
+
+.a--wrapr {
+  width: 100%;
+  min-width: 800px;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-top: 1.429em;
+  padding-bottom: 1.429em;
+}
+
+.fx--color,
+.fx--difference,
+.fx--exclusion,
+.fx--luminosity {
+  position: relative;
+  background-image: url('../images/A_thumbnail_macaw.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  overflow: visible;
+}
+
+.fx--multiple {
+  background-image: url('../images/ico_heart-bubble.svg'), url('../images/A_thumbnail_macaw.jpg');
+  background-repeat: no-repeat, no-repeat;
+  background-size: 150% auto, contain;
+  background-position: center center, center center;
+  background-attachment: scroll, scroll;
+}
+
+.fx--color-burn,
+.fx--color-dodge,
+.fx--darken,
+.fx--hard-light,
+.fx--hue,
+.fx--lighten,
+.fx--multiply,
+.fx--normal,
+.fx--overlay,
+.fx--saturation,
+.fx--screen,
+.fx--soft-light {
+  background-image: url('../images/A_thumbnail_macaw.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.img {
+  width: 100%;
+  height: 14.286em;
+  margin: 0.714em auto 0;
+  background-color: #27ae60;
+}
+
+.a--col-4-17 {
+  z-index: 57;
+}
+
+.a--col-4-18 {
+  z-index: 60;
+}
+
+.a--col-4-19 {
+  z-index: 63;
+}
+
+.a--col-4-20 {
+  z-index: 66;
+}
+
+.a--footer--made em,
+.a--footer--made span {
+  font-size: inherit;
+}
+
+.a--h1 em {
+  font-size: 1em;
+}
+
+.a--h1 span {
+  font-size: 0.857em;
+}
+
+.a--header-p em {
+  font-size: 0.875em;
+}
+
+.a--header-p span {
+  font-size: 0.75em;
+}

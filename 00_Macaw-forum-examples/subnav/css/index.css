@@ -1,0 +1,37 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-size: 16px;
+}
+
+li {
+  float: left;
+  width: 20.3773584905%;
+  margin-left: 6.16211%;
+}
+
+li:first-child {
+  margin-left: 0;
+}
+
+.container {
+  float: left;
+  width: 100%;
+  min-height: 100px;
+  background-color: black;
+}
+
+.nav--link {
+  display: block;
+  float: left;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 1.38;
+  color: white;
+}
+
+.nav--ul {
+  float: left;
+  width: 100%;
+  padding: 10px 40px;
+  background-color: green;
+}

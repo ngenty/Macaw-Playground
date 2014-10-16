@@ -1,0 +1,11 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-size: 16px;
+}
+
+.embed--tumult-hype {
+  width: 400px;
+  height: 737px;
+  margin: 80px auto 0;
+  overflow: hidden;
+}

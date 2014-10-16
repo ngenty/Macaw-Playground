@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 16px/1.38 Helvetica;
+  color: rgb(255, 255, 255);
+}
+
+.content {
+  float: left;
+  clear: both;
+  width: 100%;
+  line-height: 1.38;
+  color: rgb(255, 255, 255);
+}
+
+.manual {
+  width: 640px;
+  margin: 100px auto 0;
+  padding: 50px;
+  border-radius: 3px;
+  background-color: #ee6d58;
+}
+
+.title {
+  float: left;
+  width: 100%;
+  font: normal 38px/1.38 Pacifico-Regular;
+  color: rgb(255, 255, 255);
+}

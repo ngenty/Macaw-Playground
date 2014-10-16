@@ -1,0 +1,210 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <title>index</title>
+  <link rel="stylesheet" href="css/standardize.css">
+  <link rel="stylesheet" href="css/index.css">
+  
+  <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+	
+  <style>
+    /* because Macaw gives a font system name, change-it with the real font name and weight */
+    body {
+      font-family: 'Source Code Pro', sans-serif;
+      font-weight: 400;
+    }
+    
+    /*
+     * Background Blend mode
+     */
+		
+    .fx--normal{
+			background-blend-mode: normal;
+    	-webkit-background-blend-mode: normal;
+    }
+    
+    .fx--multiply{
+			background-blend-mode: multiply;
+    	-webkit-background-blend-mode: multiply;
+    }
+    
+    .fx--screen{
+			background-blend-mode: screen;
+    	-webkit-background-blend-mode: screen;
+    }
+    
+    .fx--overlay{
+			background-blend-mode: overlay;
+    	-webkit-background-blend-mode: overlay;
+    }
+    
+    .fx--darken{
+			background-blend-mode: darken;
+    	-webkit-background-blend-mode: darken;
+    }
+    
+    .fx--lighten{
+			background-blend-mode: lighten;
+    	-webkit-background-blend-mode: lighten;
+    }
+    
+    .fx--color-dodge{
+			background-blend-mode: color-dodge;
+    	-webkit-background-blend-mode: color-dodge;
+    }
+    
+    .fx--color-burn{
+			background-blend-mode: color-burn;
+    	-webkit-background-blend-mode: color-burn;
+    }
+    
+    .fx--hard-light{
+			background-blend-mode: hard-light;
+    	-webkit-background-blend-mode: hard-light;
+    }
+    
+    .fx--soft-light{
+			background-blend-mode: soft-light;
+    	-webkit-background-blend-mode: soft-light;
+    }
+    
+    .fx--difference{
+			background-blend-mode: exclusion;
+    	-webkit-background-blend-mode: exclusion;
+    }
+    
+    .fx--hue{
+			background-blend-mode: hue;
+    	-webkit-background-blend-mode: hue;
+    }
+    
+    .fx--saturation{
+			background-blend-mode: color;
+    	-webkit-background-blend-mode: color;
+    }
+    
+    .fx--luminosity{
+			background-blend-mode: luminosity;
+    	-webkit-background-blend-mode: luminosity;
+    }
+    
+    .fx--multiple{
+			background-blend-mode: normal, multiply;
+    	-webkit-background-blend-mode: normal, multiply;
+    }
+	</style>
+  
+</head>
+<body class="body page-index clearfix">
+  <header class="a--header-title clearfix">
+    <div class="a--wrapr clearfix">
+      <h1 class="a--h1">Background blend mode</h1>
+      <p class="a--header-p">by Nicolas Genty</p>
+    </div>
+  </header>
+  <section class="a--section--content">
+    <div class="a--wrapr clearfix">
+      <h3 class="a--h3">Filter functions</h3>
+      <p class="a--section-subtitle--p">You can find it in the Head &amp; Tail window.</p>
+      <div class="a--row">
+        <div class="a--col-4 clearfix">
+          <div class="img fx--normal"></div>
+          <p class="a--text-legend">normal<br></p>
+        </div>
+        <div class="a--col-4 clearfix">
+          <div class="img fx--multiply"></div>
+          <p class="a--text-legend">multiply<br></p>
+        </div>
+        <div class="a--col-4 clearfix">
+          <div class="img fx--screen"></div>
+          <p class="a--text-legend">screen</p>
+        </div>
+        <div class="a--col-4 clearfix">
+          <div class="img fx--overlay"></div>
+          <p class="a--text-legend">overlay</p>
+        </div>
+      </div>
+      <div class="a--row">
+        <div class="a--col-4 clearfix">
+          <div class="img fx--darken"></div>
+          <p class="a--text-legend">darken</p>
+        </div>
+        <div class="a--col-4 clearfix">
+          <div class="img fx--lighten"></div>
+          <p class="a--text-legend">lighten</p>
+        </div>
+        <div class="a--col-4 clearfix">
+          <div class="img fx--color-dodge"></div>
+          <p class="a--text-legend">color-dodge</p>
+        </div>
+        <div class="a--col-4 clearfix">
+          <div class="img fx--color-burn"></div>
+          <p class="a--text-legend">color-burn<br></p>
+        </div>
+      </div>
+      <div class="a--row">
+        <div class="a--col-4 clearfix">
+          <div class="img fx--hard-light"></div>
+          <p class="a--text-legend">hard-light<br></p>
+        </div>
+        <div class="a--col-4 clearfix">
+          <div class="img fx--soft-light"></div>
+          <p class="a--text-legend">soft-light</p>
+        </div>
+        <div class="a--col-4 clearfix">
+          <div class="img fx--difference"></div>
+          <p class="a--text-legend">difference</p>
+        </div>
+        <div class="a--col-4 clearfix">
+          <div class="img fx--exclusion"></div>
+          <p class="a--text-legend">exclusion</p>
+        </div>
+      </div>
+      <div class="a--row">
+        <div class="a--col-4 clearfix">
+          <div class="img fx--hue"></div>
+          <p class="a--text-legend">hue<br></p>
+        </div>
+        <div class="a--col-4 clearfix">
+          <div class="img fx--saturation"></div>
+          <p class="a--text-legend">saturation</p>
+        </div>
+        <div class="a--col-4 clearfix">
+          <div class="img fx--color"></div>
+          <p class="a--text-legend">color</p>
+        </div>
+        <div class="a--col-4 clearfix">
+          <div class="img fx--luminosity"></div>
+          <p class="a--text-legend">luminosity</p>
+        </div>
+      </div>
+      <div class="a--row clearfix">
+        <div class="a--col-4 a--col-4-17 clearfix">
+          <div class="img fx--multiple"></div>
+          <p class="a--text-legend">multiple<br></p>
+        </div>
+        <div class="a--col-4 hide a--col-4-18 clearfix">
+          <div class="img fx--saturation"></div>
+          <p class="a--text-legend">saturation</p>
+        </div>
+        <div class="a--col-4 hide a--col-4-19 clearfix">
+          <div class="img fx--color"></div>
+          <p class="a--text-legend">color</p>
+        </div>
+        <div class="a--col-4 hide a--col-4-20 clearfix">
+          <div class="img fx--luminosity"></div>
+          <p class="a--text-legend">luminosity</p>
+        </div>
+        <p class="a--section-warning--p">/!\&nbsp;http://caniuse.com/#feat=css-backgroundblendmode</p>
+      </div>
+    </div>
+  </section>
+  <footer class="a--footer">
+    <div class="a--wrapr clearfix">
+      <p class="a--footer--made">made with&nbsp;♥ by Nicolas Genty (<a href="https://twitter.com/ngenty">@ngenty</a>)</p>
+    </div>
+  </footer>
+</body>
+</html>

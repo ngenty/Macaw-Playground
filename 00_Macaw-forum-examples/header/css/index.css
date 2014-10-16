@@ -1,0 +1,62 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 22px/1.38 'Source Sans Pro';
+  color: rgb(255, 255, 255);
+}
+
+.subtext {
+  float: left;
+  clear: both;
+  width: 100%;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.title {
+  float: left;
+  width: 100%;
+  margin-top: 200px;
+  font-size: 100px;
+  font-weight: 200;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.wrapper {
+  width: 96%;
+  max-width: 1152px;
+  min-height: 500px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.19);
+}
+
+._container {
+  float: left;
+  width: 100%;
+  min-height: 500px;
+  background-image: url('../images/wood-bridge.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+
+@media(max-width: 500px) {
+  body {
+    font-size: 18px;
+  }
+
+  .wrapper .subtext {
+    font-size: 18px;
+  }
+
+  .wrapper .title {
+    font-size: 50px;
+  }
+
+  ._container,
+  ._container .wrapper-1 {
+    min-height: 400px;
+  }
+}

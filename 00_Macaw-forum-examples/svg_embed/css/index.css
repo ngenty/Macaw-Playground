@@ -1,0 +1,120 @@
+body {
+  height: 100%;
+  background: rgb(255, 255, 255);
+  background: -webkit-linear-gradient(0deg, #2ba7b1 0%, #bad0b8 100%) rgb(255, 255, 255);
+  background:    -moz-linear-gradient(0deg, #2ba7b1 0%, #bad0b8 100%) rgb(255, 255, 255);
+  background:      -o-linear-gradient(0deg, #2ba7b1 0%, #bad0b8 100%) rgb(255, 255, 255);
+  background:     -ms-linear-gradient(0deg, #2ba7b1 0%, #bad0b8 100%) rgb(255, 255, 255);
+  background:         linear-gradient(450deg, #2ba7b1 0%, #bad0b8 100%) rgb(255, 255, 255);
+  font: 400 22px/1.38 'Source Sans Pro';
+  color: rgb(255, 255, 255);
+}
+
+.article {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 8;
+  width: 300px;
+  height: 250px;
+  margin: auto;
+}
+
+.embed--facebook {
+  display: block;
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 6;
+  width: 30px;
+  height: 30px;
+  margin-top: 30px;
+  overflow: hidden;
+}
+
+.embed--instagram {
+  display: block;
+  position: relative;
+  float: left;
+  z-index: 5;
+  width: 30px;
+  height: 30px;
+  margin: 30px 0 0 10px;
+  overflow: hidden;
+}
+
+.macaw--title {
+  clear: both;
+  margin-top: 30px;
+}
+
+.mavaw--facebook {
+  display: block;
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 3;
+  width: 30px;
+  margin-top: 30px;
+  -webkit-transition: 500ms;
+  -moz-transition: 500ms;
+  -o-transition: 500ms;
+  -ms-transition: 500ms;
+  transition: 500ms;
+}
+
+.mavaw--facebook:hover {
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  -webkit-transition: 500ms;
+  -moz-transition: 500ms;
+  -o-transition: 500ms;
+  -ms-transition: 500ms;
+  transition: 500ms;
+  -webkit-filter: brightness(-1);
+  -moz-filter: brightness(-1);
+  -o-filter: brightness(-1);
+  -ms-filter: brightness(-1);
+  filter: brightness(-1);
+}
+
+.mavaw--instagram {
+  display: block;
+  position: relative;
+  float: left;
+  z-index: 1;
+  width: 30px;
+  margin: 30px 0 0 10px;
+  -webkit-transition: 500ms;
+  -moz-transition: 500ms;
+  -o-transition: 500ms;
+  -ms-transition: 500ms;
+  transition: 500ms;
+}
+
+.mavaw--instagram:hover {
+  -webkit-filter: brightness(-1);
+  -moz-filter: brightness(-1);
+  -o-filter: brightness(-1);
+  -ms-filter: brightness(-1);
+  filter: brightness(-1);
+}
+
+.mavaw--facebook--ico,
+.mavaw--instagram--ico {
+  display: block;
+  float: left;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.title {
+  float: left;
+  line-height: 1.38;
+  color: rgb(255, 255, 255);
+}

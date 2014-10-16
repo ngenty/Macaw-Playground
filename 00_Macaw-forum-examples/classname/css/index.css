@@ -1,0 +1,69 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-size: 16px;
+}
+
+.color-blue {
+  background-color: blue;
+}
+
+.color-green {
+  background-color: green;
+}
+
+.color-green .rectangle {
+  width: 100%;
+}
+
+.color-orange {
+  background-color: orange;
+}
+
+.color-red {
+  background-color: red;
+}
+
+.color-yellow {
+  width: 50%;
+  background-color: orange;
+}
+
+.rectangle {
+  float: left;
+  height: 250px;
+}
+
+.row {
+  float: left;
+  width: 100%;
+}
+
+.row .color-blue,
+.row .color-green,
+.row .color-red {
+  width: 50%;
+}
+
+.square {
+  float: left;
+  width: 25%;
+  height: 250px;
+}
+
+.wrappr {
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.row-2 {
+  clear: both;
+}
+
+.wrappr-2 {
+  clear: both;
+}
+
+.wrappr-3 {
+  clear: both;
+}

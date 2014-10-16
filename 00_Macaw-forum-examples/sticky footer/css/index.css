@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 16px/1.38 Helvetica;
+  color: #2c3e50;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+.article {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+
+.article__content {
+  float: left;
+  width: 100%;
+  font-weight: 400;
+  line-height: 1.38;
+  color: #2c3e50;
+}
+
+.footer {
+  width: 80%;
+  height: 50px;
+  margin: 0 auto;
+  background-color: #e74c3c;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #ecf0f1;
+}
