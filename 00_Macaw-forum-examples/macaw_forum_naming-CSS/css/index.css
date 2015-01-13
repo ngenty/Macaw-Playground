@@ -1,0 +1,97 @@
+body {
+  background-color: #efefef;
+  font: 400 16px/1.444 Helvetica;
+  color: #333333;
+}
+
+.article {
+  float: left;
+  width: 75%;
+}
+
+.article__h1 {
+  float: left;
+  clear: both;
+  width: 100%;
+  margin-top: 10px;
+  border-bottom: 1px solid #efefef;
+  font: 300 32px/1.38 'Open Sans';
+  color: #222222;
+}
+
+.article__img {
+  float: left;
+  width: 100%;
+  height: 220px;
+  background: url('../images/macaw-splash_survey.jpg') #000000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left bottom;
+}
+
+.article__p {
+  float: left;
+  clear: both;
+  width: 100%;
+  margin-top: 10px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.aside {
+  float: left;
+  width: 23%;
+  margin-left: 1.99836%;
+  background-color: #efefef;
+}
+
+.aside__img {
+  float: left;
+  width: 100%;
+  height: 150px;
+  background: url('../images/A_thumbnail_macaw.jpg') rgb(222, 222, 222);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.aside__li {
+  float: left;
+  width: 100%;
+}
+
+.aside__li--br {
+  clear: both;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #a3a3a3;
+}
+
+.aside__link {
+  display: block;
+  float: left;
+  font: 400 14px/1.38 'Open Sans';
+}
+
+.aside__link--blue {
+  color: #4894d5;
+}
+
+.aside__link--pink {
+  color: #e34170;
+}
+
+.aside__ul {
+  float: left;
+  clear: both;
+  width: 100%;
+  padding: 10px;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+}
