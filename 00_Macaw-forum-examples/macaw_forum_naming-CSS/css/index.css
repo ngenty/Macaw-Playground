@@ -90,8 +90,20 @@ body {
 
 .wrapper {
   width: 100%;
-  max-width: 800px;
+  max-width: 960px;
   margin: 0 auto;
   padding: 20px;
   background-color: #ffffff;
+}
+
+@media(max-width: 480px) {
+  .wrapper .article {
+    width: 100%;
+  }
+
+  .wrapper .aside {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 0;
+  }
 }
