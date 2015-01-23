@@ -1,0 +1,76 @@
+body {
+  background-color: #efefef;
+  font-size: 16px;
+}
+
+.button {
+  display: block;
+  float: left;
+  width: 100px;
+  padding: 10px;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 1.38;
+}
+
+.button--green {
+  clear: both;
+  color: green;
+}
+
+.button--orange {
+  clear: both;
+  color: orange;
+}
+
+.button--red {
+  color: red;
+}
+
+.buttons {
+  float: left;
+  width: 100px;
+}
+
+.img {
+  float: left;
+  width: 300px;
+  height: 300px;
+}
+
+.img--green {
+  background-color: green;
+}
+
+.img--orange {
+  background-color: orange;
+}
+
+.img--red {
+  background-color: red;
+}
+
+.screen {
+  float: left;
+  width: 300px;
+  overflow: hidden;
+}
+
+.screens {
+  position: relative;
+  float: left;
+  width: 900px;
+  overflow: hidden;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.slideshow {
+  width: 440px;
+  margin: 50px auto 0;
+  padding: 20px;
+  background-color: #ffffff;
+}
