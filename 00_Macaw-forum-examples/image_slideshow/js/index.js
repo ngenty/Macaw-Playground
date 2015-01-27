@@ -19,7 +19,7 @@
   /* vertical animated carousel
   function showScreen(e) {
     var targetX = -300 * e.data.index;
-    $screens.css('left', targetX);
+    $screens.css('top', targetX);
     return false;
   }
   */
