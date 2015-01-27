@@ -10,15 +10,15 @@
   $greenButton.on('click', {index: 2}, showScreen);
 
   // horizontal animated carousel
-  function showScreen(h) {
-    var targetX = -300 * h.data.index;
+  function showScreen(e) {
+    var targetX = -300 * e.data.index;
     $screens.css('left', targetX);
-    return false;
+    e.preventDefault();
   }
 
   /* vertical animated carousel
-  function showScreen(v) {
-    var targetX = -300 * v.data.index;
+  function showScreen(e) {
+    var targetX = -300 * e.data.index;
     $screens.css('left', targetX);
     return false;
   }
