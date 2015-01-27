@@ -53,6 +53,7 @@ body {
 .screen {
   float: left;
   width: 300px;
+  height: 300px;
   overflow: hidden;
 }
 
@@ -60,6 +61,7 @@ body {
   position: relative;
   float: left;
   width: 900px;
+  height: 300px;
   overflow: hidden;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
@@ -70,7 +72,7 @@ body {
 
 .slideshow {
   width: 440px;
-  margin: 50px auto 0;
+  margin: 200px auto 0;
   padding: 20px;
   background-color: #ffffff;
 }

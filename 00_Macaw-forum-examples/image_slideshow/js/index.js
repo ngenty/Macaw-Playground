@@ -9,9 +9,19 @@
   $orangeButton.on('click', {index: 1}, showScreen);
   $greenButton.on('click', {index: 2}, showScreen);
 
-  function showScreen(e) {
-    var targetX = -300 * e.data.index;
+  // horizontal animated carousel
+  function showScreen(h) {
+    var targetX = -300 * h.data.index;
     $screens.css('left', targetX);
+    return false;
   }
+
+  /* vertical animated carousel
+  function showScreen(v) {
+    var targetX = -300 * v.data.index;
+    $screens.css('left', targetX);
+    return false;
+  }
+  */
 
 })();
