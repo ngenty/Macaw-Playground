@@ -1,6 +1,6 @@
 body {
   background-color: rgb(255, 255, 255);
-  font: 400 16px/1.38 Helvetica;
+  font: 400 1em/1.38 Helvetica;
   color: rgb(255, 255, 255);
 }
 
@@ -8,6 +8,7 @@ body {
   float: left;
   clear: both;
   width: 100%;
+  font-size: 1em;
   line-height: 1.38;
   color: rgb(255, 255, 255);
 }
@@ -23,6 +24,6 @@ body {
 .title {
   float: left;
   width: 100%;
-  font: normal 38px/1.38 Pacifico-Regular;
+  font: normal 2.375em/1.38 Pacifico-Regular;
   color: rgb(255, 255, 255);
 }

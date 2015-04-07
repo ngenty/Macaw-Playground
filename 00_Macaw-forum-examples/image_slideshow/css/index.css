@@ -1,6 +1,6 @@
 body {
   background-color: #efefef;
-  font-size: 16px;
+  font-size: 1em;
 }
 
 .button {
@@ -8,9 +8,7 @@ body {
   float: left;
   width: 100px;
   padding: 10px;
-  font-family: Helvetica;
-  font-weight: 400;
-  line-height: 1.38;
+  font: 400 1em/1.38 Helvetica;
 }
 
 .button--green {

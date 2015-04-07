@@ -3,45 +3,46 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="initial-scale=1.0">
-  <title>index</title>
+  <title>how to use #ID</title>
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="css/standardize.css">
   <link rel="stylesheet" href="css/index.css">
   <style>
-    .containr{
+    section{
       height:100vh;
     }
     </style>
 </head>
 <body class="body page-index clearfix">
-  <header id="top" class="_container _container-1 clearfix">
-    <ul class="container clearfix">
-      <li class="_container clearfix">
-        <a href="#green" class="menu">link #green</a>
+  <nav id="top" class="nav clearfix">
+    <ul class="nav__ul clearfix">
+      <li class="nav__li clearfix">
+        <a href="#green" class="nav--item">link #green</a>
       </li>
-      <li class="_container clearfix">
-        <a href="#blue" class="menu">link #blue</a>
+      <li class="nav__li clearfix">
+        <a href="#blue" class="nav--item">link #blue</a>
       </li>
-      <li class="_container clearfix">
-        <a href="#red" class="menu">link #red</a>
+      <li class="nav__li clearfix">
+        <a href="#red" class="nav--item">link #red</a>
       </li>
     </ul>
-  </header>
-  <div id="green" class="containr container-green clearfix">
-    <p class="green-title">#GREEN</p>
-    <a href="#top" class="link-top">⬆︎ top</a>
-  </div>
-  <div id="blue" class="containr container-blue clearfix">
-    <p class="green-title">#BLUE</p>
-    <a href="#top" class="link-top">⬆︎ top</a>
-  </div>
-  <div id="red" class="containr container-red clearfix">
-    <p class="green-title">#RED</p>
-    <a href="#top" class="link-top">⬆︎ top</a>
-  </div>
-  <div id="red" class="containr container-empty clearfix">
-    <p class="green-title">#RED</p>
-    <a href="#top" class="link-top">⬆︎ top</a>
-  </div>
+  </nav>
+  <section id="green" class="section section--green clearfix">
+    <h1 class="section__title">#GREEN</h1>
+    <a href="#top" class="section__link">⬆︎ top</a>
+  </section>
+  <section id="blue" class="section section--blue clearfix">
+    <h1 class="section__title">#BLUE</h1>
+    <a href="#top" class="section__link">⬆︎ top</a>
+  </section>
+  <section id="red" class="section section--red clearfix">
+    <h1 class="section__title">#RED</h1>
+    <a href="#top" class="section__link">⬆︎ top</a>
+  </section>
+  <section id="red" class="section section--empty clearfix">
+    <h1 class="section__title">#RED</h1>
+    <a href="#top" class="section__link section__link--black">⬆︎ top</a>
+  </section>
 
   <script src="js/jquery-min.js"></script>
   <script src="js/index.js"></script>

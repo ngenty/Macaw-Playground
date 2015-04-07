@@ -1,93 +1,97 @@
-.container ._container-2:hover {
+.nav__li-1:hover {
   visible: true;
   background-color: rgba(0, 0, 0, 0);
 }
 
 body {
-  background-color: rgb(255, 255, 255);
-  font: 400 69px/1.2 Helvetica;
-  color: rgb(255, 255, 255);
+  background-color: #ffffff;
+  font: 300 4.313em/1.2 'Open Sans';
+  color: #ffffff;
 }
 
-.container {
+.nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 19;
   width: 100%;
   margin: 0 auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
+}
+
+.nav--item {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 20px;
+  font-size: 0.232em;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(204, 207, 209);
+}
+
+.nav__li {
+  float: left;
+  width: 33.3333333333%;
+}
+
+.nav__ul {
+  width: 100%;
+  margin: 0 auto;
   background-color: #1f1f1f;
 }
 
-.container-blue {
-  background-color: #298cb7;
-}
-
-.container-empty {
-  background-color: #ffffff;
-}
-
-.container-empty .link-top {
-  color: rgb(0,0,0);
-}
-
-.container-green {
-  background-color: #29b796;
-}
-
-.container-red {
-  background-color: #ee6d58;
-}
-
-.container-blue .link-top,
-.container-green .link-top,
-.container-red .link-top {
-  color: rgb(255, 255, 255);
-}
-
-.containr {
+.section {
   position: relative;
   width: 100%;
   min-height: 250px;
   margin: 0 auto;
 }
 
-.green-title {
-  float: left;
-  width: 100%;
-  padding-top: 30px;
-  font-weight: 400;
-  text-align: center;
-  color: rgb(255, 255, 255);
+.section--blue {
+  background-color: #298cb7;
 }
 
-.link-top {
+.section--empty {
+  background-color: #ffffff;
+}
+
+.section--empty .section__title {
+  font-family: Helvetica;
+  font-weight: 400;
+}
+
+.section--green {
+  background-color: #29b796;
+}
+
+.section--red {
+  background-color: #ee6d58;
+}
+
+.section__link {
   display: block;
   float: left;
   clear: both;
   width: 100%;
-  padding-bottom: 50px;
-  font-size: 16px;
+  margin-top: 10px;
+  font-size: 0.232em;
   font-weight: 400;
   line-height: 1.38;
   text-align: center;
+  color: rgba(0, 0, 0, 0.5);
 }
 
-.menu {
-  display: block;
+.section__link--black {
+  font-family: Helvetica;
+}
+
+.section__title {
   float: left;
   width: 100%;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.38;
+  margin-top: 150px;
+  font-size: 1em;
   text-align: center;
-  color: rgb(204, 207, 209);
-}
-
-.container ._container {
-  float: left;
-  width: 33.3333333333%;
-}
-
-._container-1 {
-  width: 100%;
-  margin: 0 auto;
+  color: #ffffff;
 }

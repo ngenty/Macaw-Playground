@@ -1,6 +1,6 @@
 body {
   background-color: #efefef;
-  font: 400 16px/1.38 'Open Sans';
+  font: 400 1em/1.38 'Open Sans';
   color: #3e3e3e;
 }
 
@@ -18,7 +18,7 @@ body {
 
 .article__h3 {
   float: left;
-  font-size: 28px;
+  font-size: 1.75em;
   font-weight: 300;
   line-height: 1.38;
   color: #000000;
@@ -36,6 +36,7 @@ body {
   float: left;
   clear: both;
   margin-top: 10px;
+  font-size: 1em;
   line-height: 1.38;
   color: #3e3e3e;
 }
